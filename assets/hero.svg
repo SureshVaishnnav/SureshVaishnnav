@@ -25,7 +25,7 @@
       <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
     <clipPath id="floorClip"><rect x="0" y="250" width="1000" height="90"/></clipPath>
-    <path id="orbit" d="M -175 0 A 175 40 0 1 0 175 0 A 175 40 0 1 0 -175 0"/>
+    <path id="orbit" d="M -150 0 A 150 40 0 1 0 150 0 A 150 40 0 1 0 -150 0"/>
   </defs>
   <rect width="1000" height="340" fill="url(#bg)"/>
   <g fill="#ffffff">
@@ -68,7 +68,7 @@
       <ellipse ry="90" rx="90"><animate attributeName="rx" values="90;0;90" keyTimes="0;0.5;1" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1" dur="6s" begin="-4s" repeatCount="indefinite"/></ellipse>
       <ellipse ry="90" rx="90"><animate attributeName="rx" values="90;0;90" keyTimes="0;0.5;1" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1" dur="6s" begin="-5s" repeatCount="indefinite"/></ellipse>
     </g>
-    <ellipse rx="175" ry="40" fill="none" stroke="#a855f7" stroke-width="1.2" stroke-dasharray="4 6" opacity="0.8"/>
+    <ellipse rx="150" ry="40" fill="none" stroke="#a855f7" stroke-width="1.2" stroke-dasharray="4 6" opacity="0.8"/>
     <g font-family="Consolas,'Fira Code',monospace" font-size="13" font-weight="700" fill="#ffffff">
       <g><circle r="5" fill="#3DDC84" filter="url(#glow)"/><text x="9" y="4">Kotlin</text><animateMotion dur="12s" begin="0s" repeatCount="indefinite"><mpath href="#orbit"/></animateMotion></g>
       <g><circle r="5" fill="#F05138" filter="url(#glow)"/><text x="9" y="4">Swift</text><animateMotion dur="12s" begin="-2.4s" repeatCount="indefinite"><mpath href="#orbit"/></animateMotion></g>
@@ -80,7 +80,7 @@
   <g font-family="'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif">
     <animate attributeName="opacity" values="0;1" dur="1.6s" fill="freeze"/>
     <text x="60" y="92" font-size="15" font-weight="600" letter-spacing="6" fill="#00f0ff">HELLO WORLD, I AM</text>
-    <rect x="262" y="80" width="9" height="15" fill="#00f0ff"><animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/></rect>
+    <rect x="300" y="80" width="9" height="15" fill="#00f0ff"><animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/></rect>
     <text x="56" y="155" font-size="58" font-weight="800" fill="url(#txt)" filter="url(#glow)">Suresh Vaishnav</text>
     <text x="60" y="192" font-size="21" font-weight="600" fill="#e2e8f0">Senior Mobile · AI · Full-Stack Developer</text>
     <text x="60" y="224" font-family="Consolas,'Fira Code',monospace" font-size="14" fill="#c084fc">&lt;Android/&gt;  &lt;iOS/&gt;  &lt;Flutter/&gt;  &lt;ReactNative/&gt;  &lt;Next.js/&gt;</text>
